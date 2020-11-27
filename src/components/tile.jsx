@@ -45,7 +45,7 @@ const Tile = (props) => {
         </ReactGA.OutboundLink>
       }
 
-      { (code && (title !== "Continental ScanCV" && title !== "Manager Homepage" && title !== "PHP PhoneBook")) &&
+      { (code && (title !== "Continental ScanCV" && title !== "Manager Homepage")) &&
         <ReactGA.OutboundLink
           eventLabel={`visita code ${title}`}
           to={git}
@@ -53,19 +53,6 @@ const Tile = (props) => {
           rel="noopener noreferrer"
         >
         <div style={{border: "solid 1px #000", background: "rgba(255,255,255,0.5)",padding: ".8em", borderRadius: "10px", margin: "10px 80px 0 80px"}}>
-        <i className="fab fa-github"></i> Code
-        </div>
-        </ReactGA.OutboundLink>
-      }
-
-      { (code && (title === "PHP PhoneBook")) &&
-        <ReactGA.OutboundLink
-          eventLabel={`visita code ${title}`}
-          to={git}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <div style={{border: "solid 1px #000", background: "rgba(255,255,255,0.5)",padding: ".8em", borderRadius: "10px", margin: "30px 80px 0 80px"}}>
         <i className="fab fa-github"></i> Code
         </div>
         </ReactGA.OutboundLink>

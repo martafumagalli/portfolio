@@ -44,9 +44,9 @@ const data =
     lang: 'PHP / MySQL',
     title: 'PHP PhoneBook',
     desc: 'This project is a simple CRUD application developed using PHP with MySQL and Bootstrap',
-    link: '',
+    link: 'https://phpphonebook.000webhostapp.com/index.php',
     git:'https://github.com/martafumagalli/my_php_phonebook',
-    preview:false,
+    preview:true,
     code:true,
     id:'006'
   },
