@@ -1,44 +1,14 @@
 const data =
 [
   {
-    lang: 'HTML / CSS',
-    title: 'Wild Circus',
-    desc: 'Simple project created with HTML and CSS - entry test to the Web Development course at the WCSchool',
-    link: 'https://my-wild-circus.netlify.app',
-    git:'https://github.com/martafumagalli/WildCircus',
+    lang: 'Laravel / React',
+    title: 'Pixel-Perfect',
+    desc: 'Pixel perfect integrated page starting from a provided inVision design. Laravel, ReactJS, Bootstrap and Sass',
+    link: 'https://marta-pixel-perfect.herokuapp.com',
+    git:'https://github.com/martafumagalli/pixel-perfect',
     preview:true,
     code:true,
-    id:'000'
-  },
-  {
-    lang: 'SCSS / Sass',
-    title: 'Manager Homepage',
-    desc: 'Pixel-perfect integration project created to approach Scss technology, using the Sass preprocessor',
-    link: 'https://manager-integration.netlify.app',
-    git:'https://github.com/martafumagalli/manager-integration',
-    preview:true,
-    code:true,
-    id:'001'
-  },
-  // {
-  //   lang: 'Bootstrap',
-  //   title: 'Complots Faciles',
-  //   desc: 'Project for an ironic blog dedicated to conspiracy - technological focus on the use of Bootstrap framework',
-  //   link: 'https://complots-faciles.netlify.app',
-  //   git:'https://github.com/martafumagalli/Complots-faciles',
-  //   preview:true,
-  //   code:true,
-  //   id:'002'
-  // },
-  {
-    lang: 'JQuery',
-    title: 'Diafana Design',
-    desc: 'Portfolio dedicated to the development of email templates - created using Html, Css and JQuery',
-    link: 'https://diafana-design.netlify.app',
-    git:'https://github.com/martafumagalli/diafana-design',
-    preview:true,
-    code:true,
-    id:'003'
+    id:'008'
   },
   {
     lang: 'React / API',
@@ -49,6 +19,16 @@ const data =
     preview:true,
     code:true,
     id:'004'
+  },
+  {
+    lang: 'React / NodeJs',
+    title: 'Continental ScanCV',
+    desc: 'ScanCV is a javascript fullstack application developed for Continental using ReactJS / NodeJS / MySQL',
+    link: '',
+    git:'https://github.com/martafumagalli/continental-scan-cv',
+    preview:false,
+    code:true,
+    id:'007'
   },
   {
     lang: 'Wordpress',
@@ -71,24 +51,44 @@ const data =
     id:'006'
   },
   {
-    lang: 'React / NodeJs',
-    title: 'Continental ScanCV',
-    desc: 'ScanCV is a javascript fullstack application developed for Continental using ReactJS / NodeJS / MySQL',
-    link: '',
-    git:'https://github.com/martafumagalli/continental-scan-cv',
-    preview:false,
-    code:true,
-    id:'007'
-  },
-  {
-    lang: 'Laravel / React',
-    title: 'Pixel-Perfect',
-    desc: 'Pixel perfect integrated page with basic API using Laravel, ReactJS, Bootstrap and Sass',
-    link: 'https://marta-pixel-perfect.herokuapp.com',
-    git:'https://github.com/martafumagalli/pixel-perfect',
+    lang: 'JQuery',
+    title: 'Diafana Design',
+    desc: 'Portfolio dedicated to the development of email templates - created using Html, Css and JQuery',
+    link: 'https://diafana-design.netlify.app',
+    git:'https://github.com/martafumagalli/diafana-design',
     preview:true,
     code:true,
-    id:'008'
+    id:'003'
+  },
+  {
+    lang: 'Bootstrap',
+    title: 'Complots Faciles',
+    desc: 'School project for an ironic blog dedicated to conspiracy - Focus on the use of Bootstrap framework',
+    link: 'https://complots-faciles.netlify.app',
+    git:'https://github.com/martafumagalli/Complots-faciles',
+    preview:true,
+    code:true,
+    id:'002'
+  },
+  {
+    lang: 'SCSS / Sass',
+    title: 'Manager Homepage',
+    desc: 'Integration project created to approach Scss technology, using the Sass preprocessor - not responsive',
+    link: 'https://manager-integration.netlify.app',
+    git:'https://github.com/martafumagalli/manager-integration',
+    preview:true,
+    code:true,
+    id:'001'
+  },
+  {
+    lang: 'HTML / CSS',
+    title: 'Wild Circus',
+    desc: 'Simple project created with HTML and CSS - entry test to the Web Development course at the WCSchool',
+    link: 'https://my-wild-circus.netlify.app',
+    git:'https://github.com/martafumagalli/WildCircus',
+    preview:true,
+    code:true,
+    id:'000'
   }
 ]
 
